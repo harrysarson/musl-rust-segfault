@@ -1,6 +1,5 @@
 # SSCCE for segfault with rust + musl-g++
 
-fs
 
     # works
     make cxx
