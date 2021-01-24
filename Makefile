@@ -11,4 +11,4 @@ rust:
 
 .PHONY: rust-musl
 rust-musl:
-	CXX=/opt/cross/bin/x86_64-linux-musl-g++ cargo run --target x86_64-unknown-linux-musl
+	CROSS_COMPILE=/opt/cross/bin/x86_64-linux-musl- cargo run --target x86_64-unknown-linux-musl
